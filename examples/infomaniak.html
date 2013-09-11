@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+
+	<title>Infomaniak Presentation</title>
+
+	<link rel="stylesheet" href="../css/reveal.min.css">
+</head>
+
+<body>
+
+	<div class="reveal">
+
+		<div class="slides">
+
+			<section data-markdown>
+				<script type="text/template">
+					#Infomaniak Network
+				</script>
+			</section>
+
+			<section data-markdown>
+				<script type="text/template">
+					#Infomaniak Network 2
+				</script>
+			</section>
+
+		</div>
+
+	</div>
+
+	<script src="../lib/js/head.min.js"></script>
+	<script src="../js/reveal.min.js"></script>
+
+	<script>
+
+		Reveal.initialize({
+			// Display controls in the bottom right corner
+			controls: true,
+			// Display a presentation progress bar
+			progress: true,
+			// Enable keyboard shortcuts for navigation
+			keyboard: true,
+			// Loop the presentation
+			loop: true,
+			// Transition style
+			transition: 'linear', // default/cube/page/concave/zoom/linear/fade/none
+			// Dependencies
+			dependencies: [
+			   // Interpret Markdown in <section> elements
+			   { src: '../plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+			   { src: '../plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+			   // Syntax highlight for <code> elements
+			   { src: '../plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+			   // Zoom in and out with Alt+click
+			   { src: '../plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+			]
+		});
+
+</script>
+
+</body>
+</html>
