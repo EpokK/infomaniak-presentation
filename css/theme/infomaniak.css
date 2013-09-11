@@ -1,0 +1,28 @@
+body
+{
+	font-family: arial,sans-serif;
+	height:100%;
+	width:100%;
+	margin:0;
+	padding:0;
+	background-color: #FFFFFF;
+	overflow: hidden;
+}
+a, a:visited
+{
+	color:#1D6CB1;
+	text-decoration:none;
+}
+a:hover
+{
+	text-decoration:underline;
+}
+h1 {
+	color: white;
+}
+.reveal .controls div.navigate-left {
+	border-right-color: #CCC;
+}
+.reveal .controls div.navigate-right {
+	border-left-color: #CCC;
+}
