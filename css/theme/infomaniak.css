@@ -28,3 +28,6 @@ h1 {
 .reveal .progress {
 	background-color: #02538a;
 }
+.reveal .alignLeft {
+	text-align: left;
+}
