@@ -43,4 +43,5 @@ h1 {
 .reveal .image {
 	box-shadow: 0 0 10px 0 #000;
 	border-radius: 5px;
+	width: 70%;
 }
