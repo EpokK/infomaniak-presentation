@@ -6,7 +6,7 @@ body .reveal
 	margin:0;
 	padding:0;
 	background-color: #FFFFFF;
-	font-size: 1.7em;
+	font-size: 1.7em; /* taille de la police */
 	line-height: 150%;
 }
 a, a:visited
@@ -20,6 +20,9 @@ a:hover
 }
 h1 {
 	color: white;
+}
+.reveal p, .reveal li {
+	line-height: 1.5;
 }
 .reveal .controls div.navigate-left {
 	border-right-color: #CCC;

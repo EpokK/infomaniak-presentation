@@ -1,3 +1,9 @@
+// var favicon = new Favico({
+//     animation:'slide'
+// });
+
+// favicon.badge(0);
+
 Reveal.initialize({
 	// Display controls in the bottom right corner
 	controls: true,
@@ -32,3 +38,8 @@ Reveal.initialize({
 	   { src: '../plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
 	]
 });
+
+Reveal.addEventListener('slidechanged', function(event) {
+	var offset = Reveal.getIndices().h;
+	// favicon.badge(offset);
+}, false);
